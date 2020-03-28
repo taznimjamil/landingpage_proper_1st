@@ -1,0 +1,287 @@
+/*      Header Starts       */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: white;
+    padding: 10px 0 2px 0;
+
+}
+.wrapper {
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+}
+.logo {
+    margin: 10px 10px;
+    width: 3%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+#logoname{
+    float: left;
+    font-family: sans-serif;
+    color: rgb(31, 80, 143);
+    width: 14%;
+    margin: 20px 0px 0px 5px;
+}
+.menu {
+    margin: 10px 20px 20px 0px;
+    padding: 0px;
+    width: 75%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(31, 80, 143);
+    text-decoration: none;
+    padding: 0px 215px 0px 0px;
+    display: block;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #289E86;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/*      Header Ends     */ 
+
+/*      Banner starts       */
+.banner{
+    background-image: url(../images/background_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+.b_content{
+    padding: 20px 0px 0px 0px;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 280px;
+    margin-top: 90px;
+
+}
+.b_content h1{
+    font-family: sans-serif;
+    margin: 50px 0px 0px 35px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, .8);
+}
+#bottom_content{
+    margin: 12px 0px 0px 35px;
+}
+.b_content p{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 15px 0px 0px 35px;
+    color: rgba(255, 255, 255, .8);
+}
+.b_content button{
+    margin: 20px 0px 0px 35px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .3s;
+}
+.b_content button:focus{
+    outline: none;
+}
+.b_content button:hover{
+    background-color: black;
+    color: #289E86;
+}
+/*   xxxx   Banner ends   xxxx    */
+
+/*           Service Starts            */
+.service{
+    overflow: hidden;
+    margin-top: 50px;
+}
+/*           Our Villas Starts            */
+
+.service_one{
+    padding: 20px 30px;
+    float: left;
+    width: 30%;
+}
+.top_one{
+   
+}
+.top_one h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+.top_one img{
+    width:100%;
+    height: 200px;
+}
+.bottom_one {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+.service_one button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(31, 80, 143);
+    margin: 0px 220px;
+    transition: .3s;
+}
+.service_one button:focus{
+    outline: none;
+}
+.service_one button:hover{
+    background-color: black;
+    color: #289E86;
+}
+/*     xxxx      Our Villas ends     xxxx       */
+
+/*           Our Services Starts            */
+.service_two{
+    
+    padding: 20px 30px;
+    float: left;
+    width: 30%;
+}
+.top_two{
+    
+}
+.top_two h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+.top_two img{
+    width:100%;
+    height: 200px;
+}
+.bottom_two{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8) ;
+}
+.service_two button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(31, 80, 143);
+    margin: 0px 220px;
+    transition: .3s;
+}
+.service_two button:focus{
+    outline: none;
+}
+.service_two button:hover{
+    background-color: black;
+    color: #289E86;
+}
+/*     xxxx      Our Services ends     xxxx       */
+/*           Our Condos Starts            */
+.service_three{
+    
+    padding: 20px 30px;
+    float: right;
+    width: 30%;
+}
+.top_three{
+}
+.top_three h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+.top_three img{
+    width:100%;
+    height: 200px;
+}
+.bottom_three{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8) ;
+}
+.service_three button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(31, 80, 143);
+    transition: .3s;
+    margin: 0px 220px;
+}
+.service_three button:focus{
+    outline: none;
+}
+.service_three button:hover{
+    background-color: black;
+    color: #289E86;
+}
+/*     xxxx      Our Condos ends     xxxx       */
+/*   xxxx   Service ends   xxxx    */
+
+/*      Footer Starts        */
+footer{
+    margin-top: 100px;
+}
+.wrapper2{
+    overflow: hidden;
+    width: 40%;
+    margin: 0 auto;
+}
+footer h2{
+    font-size: 18px;
+    color: rgb(31, 80, 143);
+    font-family: sans-serif;
+    text-align: center;
+}
+footer h6{
+    color: rgb(31, 80, 143);
+    font-family: sans-serif;
+    text-align: center;
+}
+.footer_icons{
+    overflow: hidden;
+    margin: 0px 190px 20px 190px;
+}
+#fb{
+    float: left;
+    padding: 0px 30px;
+}
+#twitter{
+    padding: 0px 34px;
+    float: left;
+}
+#insta{
+    padding: 0px 30px;
+    float: right;
+}
+/*   xxxx   Footer ends    xxxx    */
